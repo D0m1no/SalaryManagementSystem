@@ -249,7 +249,7 @@ void Widget::connectSql() {
         database.setPort(3306);                      //连接数据库端口号，与设置一致
         database.setDatabaseName("CourseDesign");
         database.setUserName("root");                //数据库用户名，与设置一致
-        database.setPassword("1024");                //数据库密码，与设置一致
+        database.setPassword("****");                //数据库密码，与设置一致
     }
     if(!database.open()) {
         qDebug() << "connect mysql fail:";
